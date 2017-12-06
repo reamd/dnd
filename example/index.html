@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="reamd">
+    <title>dnd test</title>
+    <style>
+        html {
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            user-select: none;
+            touch-action: none;
+        }
+
+        .content {
+            overflow: hidden;
+        }
+        .content li {
+            display: inline-block;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            width: 80px;
+            height: 80px;
+        }
+
+        .liaison {background-color: green}
+        .stress {background-color: yellow}
+        .light {background-color: red}
+        .up {background-color: aqua}
+        .down {background-color: aquamarine}
+
+        .content .draw {
+            width: 0;
+            height: 0;
+        }
+
+        .content .draw li {
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+
+<section class="content">
+    <ul class="draw"></ul>
+    <ul class="source">
+        <li class="liaison"></li>
+        <li class="stress"></li>
+        <li class="light"></li>
+        <li class="up"></li>
+        <li class="down"></li>
+    </ul>
+</section>
+
+<script src="../src/dnd.js"></script>
+<script>
+(function () {
+    function q(str) {
+        return document.querySelector(str);
+    }
+
+    Dnd.init({
+        items: [
+            {
+                dom: q('.content .source .liaison')
+            },
+            {
+                dom: q('.content .source .stress')
+            },
+            {
+                dom: q('.content .source .light')
+            },
+            {
+                dom: q('.content .source .up')
+            },
+            {
+                dom: q('.content .source .down')
+            }
+        ]
+    })
+})();
+</script>
+</body>
+</html>
