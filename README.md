@@ -1,6 +1,6 @@
 # dnd
-![npm install](https://img.shields.io/badge/npm-plastic-green.svg?style=install)
-![gulp build](https://img.shields.io/badge/build-plastic-green.svg?style=gulp)
+![npm install](https://img.shields.io/badge/npm-install-green.svg?style=plastic)
+![gulp build](https://img.shields.io/badge/build-gulp-green.svg?style=plastic)
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
 ## Getting Started
