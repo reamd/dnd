@@ -1,5 +1,5 @@
 # dnd
-![npm install](https://img.shields.io/badge/npm-install-green.svg?style=plastic)
+[![npm install](https://img.shields.io/badge/npm-install-green.svg?style=plastic)](https://www.npmjs.com/package/dnd-js)
 ![gulp build](https://img.shields.io/badge/build-gulp-green.svg?style=plastic)
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
