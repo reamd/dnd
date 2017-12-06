@@ -1,5 +1,5 @@
 {
-  "name": "dnd",
+  "name": "dnd-js",
   "version": "0.0.1",
   "description": "drag and drop js plugin",
   "main": "dist/dnd.js",

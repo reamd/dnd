@@ -10,7 +10,7 @@
 **npm install**
 
 ``` bash
-npm install dnd
+npm install dnd-js
 ```
 
 **Browser**
